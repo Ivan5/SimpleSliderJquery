@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
+*{
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 14px;
+  color: #fff;
+  background-color: crimson;
+  line-height: 1.6em;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#container{
+  width: 980px;
+  margin: 40px auto;
+  overflow: hidden;
+}
+#slider{
+  width: 940px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  padding: 3px;
+}
+#slider img{
+  width: 940px;
+  height: 350px;
+}
+.slide{
+  position: absolute;
+}
+.slide-copy{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background: #7f7f7f;
+  background: rgba(0,0,0,0.5)
+}
+#prev, #next{
+  float: left;
+  margin-top: 130px;
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+}
+#prev{
+  margin-right: -45px;
+  padding: 10px;
+}
+#next{
+  margin-left: -35px;
+  padding: 10px;
+}
